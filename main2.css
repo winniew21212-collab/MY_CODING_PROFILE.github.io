@@ -1,0 +1,146 @@
+html,body{
+    height: 150%;
+    padding: 0%;
+    margin: 0%;}
+body{
+    min-height: 150;
+    background: linear-gradient(to bottom, pink to black );
+}
+
+.quiz-title{
+    background-color: black;
+    color: pink;
+    text-align: center;
+    font-size: 36px;
+    padding: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: drop-anim 0.5s ease-in-out forwards;
+}
+@keyframes drop-anim{
+    from{
+      transform: translateY(-100%);
+      opacity: 0;
+      
+    }to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.quiz-container{
+    max-width: 750px;
+    height: 400px;
+    background-color: hotpink;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.progressbarbackground{
+    width: 90%;
+    height: 12px;
+    background-color:pink ;
+    margin: auto;
+    border-radius: 12px;
+}
+.progressbarfill{
+    width: 50%;
+    height: 12px;
+    background-color: black;
+    border-radius: 12px;
+
+}
+
+.question {
+    font-size: 20px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.drop-down{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: deeppink;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.startbtn{
+    margin: auto;
+    margin-top: 100px;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    display: block;
+}
+
+.timer{ 
+    font-size:36px ;
+    background-color: pink;
+    margin: auto;
+    display: block;
+    width: 120px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Press Start 2P',cursive;
+    border-radius: 30px;
+}
+
+
+.optionbuttons {
+    margin-top: 30px;
+    height: fit-content;
+}
+
+.option-btn {
+    display: block;
+    margin: auto;
+    font-family: "Press Start 2P",cursive;
+    width: 60%;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    padding: 4px 4px;
+    font-size: 16px;
+}
+
+.option-btn:hover {
+    background-color: pink;
+}
+
+.scorelabel {
+    color: pink;
+    font-size: 14px;
+    font-family: "Press Start 2P",cursive;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.feedbacklabel {
+    color: pink;
+    font-size: 12px;
+    font-family: "Press Start 2P",cursive;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bgm-selector {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    width:60%;
+    font-size: 24px;
+    padding: 7px 9px;
+
+}
+
+.Music-button {
+    display: block;
+    margin: auto;
+    text-align: center;
+}

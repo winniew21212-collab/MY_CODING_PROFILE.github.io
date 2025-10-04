@@ -1,0 +1,113 @@
+#main-title {
+    background-color:blue;
+    color:rgb(248, 237, 39);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#mainpic{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 60px;
+    border: solid 10px skyblue;
+    border-radius: 50px;
+}
+
+#table1{
+ margin:auto;
+ margin-top: 50px;
+ width: 1000px; 
+ height: 100px; 
+ border-color: skyblue; 
+ background-color: aliceblue;
+ font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ color:blueviolet;
+ text-align: center ;
+}
+
+#main-table td{
+    padding: 6px;
+
+}
+#headerrow{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#link1{
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+
+iframe{
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.fade-in{
+    background-color: aliceblue;
+    font-size: 36px;
+    text-align: center;
+    font-family: cursive;
+    padding: 30px;
+    color: blueviolet;
+    opacity: 0;
+    animation: fade-in-anim 2s ease-in forwards;
+    height: 100px;
+}
+
+@keyframes fade-in-anim {
+    from{
+        opacity: 0;
+        font-size: 0px;
+    }
+    to{
+        opacity: 1;
+        font-size: 40px;
+    }
+}
+
+.colour-changing{
+    background-color: aliceblue;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    color: blueviolet;
+    height: 100px;
+    animation: color-anim 0.5s infinite;
+}
+
+@keyframes color-anim{
+    0% {color: aqua;}
+    20% {color: aquamarine;}
+    40% {color: blue;}
+    60% {color: teal;}
+    80% {color: cyan;}
+    100% {color: lightblue;}
+}
+
+.glide-in-out{
+    width: 30%;
+    margin-top: 30px;
+    animation: glide-x-anim 10s ease-in-out infinite;
+}
+
+@keyframes glide-x-anim{
+    from{
+      transform: translateX(-150%)  
+    }to{
+        transform: translateX(390%);
+    }
+    
+}
